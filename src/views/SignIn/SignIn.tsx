@@ -13,6 +13,7 @@ import {
 } from '@material-ui/core';
 import ArrowBackIcon from '@material-ui/icons/ArrowBack';
 import { useActions, authAction } from "../../actions";
+import authImg from '../../assets/images/auth.jpg';
 
 interface SignInProps {
   history: any
@@ -53,7 +54,7 @@ const useStyles = makeStyles((theme: Theme) => ({
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundImage: 'url(/images/auth.jpg)',
+    backgroundImage: `url(${authImg})`,
     backgroundSize: 'cover',
     backgroundRepeat: 'no-repeat',
     backgroundPosition: 'center'    

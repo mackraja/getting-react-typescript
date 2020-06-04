@@ -2,6 +2,7 @@ import React from 'react';
 import { Theme } from "@material-ui/core/styles";
 import { makeStyles } from '@material-ui/styles';
 import { Grid, Typography } from '@material-ui/core';
+import underDevelopSvg from '../../assets/images/undraw_page_not_found_su7k.svg';
 
 const useStyles = makeStyles((theme: Theme) => ({
   root: {
@@ -45,7 +46,7 @@ const NotFound = () => {
             <img
               alt="Under development"
               className={classes.image}
-              src="/images/undraw_page_not_found_su7k.svg"
+              src={underDevelopSvg}
             />
           </div>
         </Grid>

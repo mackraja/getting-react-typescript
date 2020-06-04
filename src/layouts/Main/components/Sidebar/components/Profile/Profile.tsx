@@ -4,6 +4,7 @@ import clsx from 'clsx';
 import { Theme } from "@material-ui/core/styles";
 import { makeStyles } from '@material-ui/styles';
 import { Avatar, Typography } from '@material-ui/core';
+import userImg from '../../../../../../assets/images/avatars/avatar_12.png';
 
 interface ProfileProps {
   className?: string,
@@ -32,7 +33,7 @@ const Profile = (props: ProfileProps) => {
 
   const user = {
     name: 'Monty Khanna',
-    avatar: '/images/avatars/avatar_12.png',
+    avatar: `${userImg}`,
     bio: 'Full Stack Developer'
   };
 

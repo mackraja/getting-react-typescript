@@ -3,6 +3,7 @@ import { Link as RouterLink } from 'react-router-dom';
 import clsx from 'clsx';
 import { makeStyles } from '@material-ui/styles';
 import { AppBar, Toolbar } from '@material-ui/core';
+import logoImg from '../../../../assets/images/logos/logo--white.svg';
 
 interface TopbarProps {
   className?: string,
@@ -30,7 +31,7 @@ const Topbar = (props: TopbarProps) => {
         <RouterLink to="/">
           <img
             alt="Logo"
-            src="/images/logos/logo--white.svg"
+            src={logoImg}
           />
         </RouterLink>
       </Toolbar>

@@ -13,6 +13,7 @@ import {
   Button,
   LinearProgress
 } from '@material-ui/core';
+import avatarImg from '../../../../assets/images/avatars/avatar_12.png';
 
 interface AccountProfileProps {
   className?: string
@@ -48,7 +49,7 @@ const AccountProfile = (props: AccountProfileProps) => {
     city: 'Chandigarh',
     country: 'INDIA',
     timezone: 'GTM-5',
-    avatar: '/images/avatars/avatar_12.png'
+    avatar: avatarImg
   };
 
   return (
