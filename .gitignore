@@ -106,3 +106,8 @@ dist
 # lock files
 package-lock.json
 yarn.lock
+
+# vs local files
+*.orig
+.idea/
+.vscode/
