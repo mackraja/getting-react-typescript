@@ -20,3 +20,10 @@
 
 * Using npm: npm start
 * Using yarn: yarn run start
+
+
+##### Connection with Database
+
+First, you have to add `.env` file at root and add required key/value pair
+
+> REACT_APP_API_URL=https://getting-started-typescript.herokuapp.com
