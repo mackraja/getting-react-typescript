@@ -1,6 +1,7 @@
 # getting-react-typescript
 
-* https://getting-react-typescript.herokuapp.com/
+[LIVE link](https://getting-react-typescript.herokuapp.com/)
+
 
 ### Local Environment Setup
 * Use Node Version: ^12.6.3
@@ -8,7 +9,6 @@
 
 ##### Clone Project: 
 
-* Using SSH: git clone git@bitbucket.org:MackRaja/getting-react-typescript.git
 * Using HTTPS: git clone https://MackRaja@bitbucket.org/MackRaja/getting-react-typescript.git
 
 ##### Install Node Packages:
@@ -20,7 +20,6 @@
 
 * Using npm: npm start
 * Using yarn: yarn run start
-
 
 ##### Connection with Database
 
